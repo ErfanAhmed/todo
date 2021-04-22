@@ -1,4 +1,4 @@
-package therap.javafest.todo.controller;
+package com.erfan.todo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -13,7 +13,7 @@ public class WelcomeController {
 
     @GetMapping
     public String greeting(ModelMap model) {
-        model.put("name", "Therap Javafest");
+        model.put("name", "Hello Spring Boot!");
 
         return "welcome";
     }

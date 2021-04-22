@@ -31,7 +31,7 @@
 <body>
 
 <%--Header--%>
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff8e1;">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid" style="padding-left: 35%; padding-right: 35%">
         <p class="navbar-brand" style="font-family: 'Roboto'">
             <i class="fas fa-tasks"></i>
@@ -67,10 +67,10 @@
 <sitemesh:write property='body'/>
 
 <%--Footer--%>
-<nav class="navbar fixed-bottom navbar-light" style="background-color: #fff8e1;">
+<nav class="navbar fixed-bottom navbar-light">
     <div class="container-fluid" style="padding-left: 40%">
         <div style="padding-top: 15px; text-align: center; font-size: 14px">
-            <p> © Therap BD Ltd. 2003-2021. All Rights Reserved</p>
+            <p>Learn while you breath!</p>
         </div>
     </div>
 </nav>

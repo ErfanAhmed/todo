@@ -1,4 +1,4 @@
-package therap.javafest.todo.controller;
+package com.erfan.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import therap.javafest.todo.domain.User;
-import therap.javafest.todo.service.UserService;
+import com.erfan.todo.domain.User;
+import com.erfan.todo.service.UserService;
 
 import javax.validation.Valid;
 import java.util.Objects;

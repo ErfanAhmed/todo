@@ -1,4 +1,4 @@
-package therap.javafest.todo.controller;
+package com.erfan.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import therap.javafest.todo.domain.Task;
-import therap.javafest.todo.domain.User;
-import therap.javafest.todo.service.TaskService;
-import therap.javafest.todo.service.UserService;
+import com.erfan.todo.domain.Task;
+import com.erfan.todo.domain.User;
+import com.erfan.todo.service.TaskService;
+import com.erfan.todo.service.UserService;
 
 import javax.validation.Valid;
 

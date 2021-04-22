@@ -1,4 +1,4 @@
-package therap.javafest.todo.domain;
+package com.erfan.todo.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;

@@ -1,7 +1,7 @@
-package therap.javafest.todo.repository;
+package com.erfan.todo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import therap.javafest.todo.domain.User;
+import com.erfan.todo.domain.User;
 
 /**
  * @author erfan

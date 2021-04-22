@@ -1,4 +1,4 @@
-package therap.javafest.todo.configuration;
+package com.erfan.todo.configuration;
 
 import org.sitemesh.builder.SiteMeshFilterBuilder;
 import org.sitemesh.config.ConfigurableSiteMeshFilter;
